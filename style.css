@@ -1,31 +1,74 @@
-#h1-div {
-    width: 200px;
-    height: 40px;
-    background-color: green;
+body {
+    margin: 0 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    min-height: 90vh;
+    height: 90vh;
+    padding: 0;
+}
+
+nav {
+    height: 80%;
+}
+
+ul {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    height: 327px;
+    min-height: 327px;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 22px;
+    color: black;
+    width: 100%;
     border: 1px solid black;
-    border-radius: 5px;
+    margin-bottom: 56px;
 }
 
-#h1 {
-    position: absolute;
-    top: -10px;
-    left: 15px;
+.two {
+    margin-bottom: 40px;
 }
 
-.li-bg {
-    width: 300px;
-    height: 80px;
-    background-color: yellow;
-    border: 1px solid black;
-    border-radius: 10px;
+.two {
+    margin-left: 25px;
+    width: 90%;
 }
 
-.item-pos {
-    position: absolute;
-    top: 50px;
-    left: -5px;
+.container {
+    padding: 0 2rem;
+    max-width: 65rem;
+    margin: 0 auto;
 }
 
-li:hover {
-    color: green;
+.columns {
+    display: flex;
+    gap: 1em;
+}
+
+.columns > * {
+    width: 100%;
+    border: 3px solid black;
 }
